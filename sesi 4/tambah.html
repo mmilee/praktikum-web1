@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Belajar Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  </head>
+  <body>
+
+
+    <nav class="navbar bg-primary navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Penggajian</a>
+        </div>
+  </nav>
+  <div class="container-fluid">
+   
+    <div class="col-md-6"></div>
+        
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Form dan Input</title>
+          </head>
+          <body>
+              <form action="">
+                <div class="mb-3"></div>
+                  <label for="nik" class="form-label">NIK:</label><br>
+                  <input type="text" class="form-control" name="nik" id="nik" size="10" maxlength="10" placeholder="misal: 123"><br>
+                </div>
+                  <div class="mb-3"></div>
+                  <label for="nama" class="form-label">Nama :</label><br>
+                  <input type="text" class="form-control" name="nama" id="nama"><br>
+                </div>
+                  <div class="mb-3"></div>
+                  <label for="tanggal_lahir" clas="form-label">tanggal_lahir:</label><br>
+                  <input type="date" class="form-control" name="tanggal_lahir" id="tanggal_lahir" min="2022-01-11"><br>
+                </div>
+                  <div class="mb-3">
+                  <label for="gaji_pokok" class="form-label">Gaji_pokok:</label><br>
+                  <input type="number" name="gaji_pokok" id="gaji_pokok" required min="1000000" step="1000"><br>
+                </div>
+                <div class="mb-3">
+                  <label for="status_karyawan" class="form-label">Status Karyawan:</label><br>
+                  <input class="form-check-label" type="radio" name="status_karyawan" id="tetap" value="TETAP">
+                </div>
+                <div class="mb-3">
+                  <label for="tetap">TETAP:</label><br>
+                  <input type="radio" name="status_karyawan" id="kontrak" value="kontrak">
+                </div>
+                <div class="mb-3">  
+                  <label for="kontrak">KONTRAK:</label><br>
+                  <input type="radio" name="status_karyawan" id="magang" value="MAGANG">
+                </div>
+                <div class="mb-3">
+                  <label for="magang">MAGANG:</label><br>
+                  <input type="submit" value="submit" id="submit"  value="Submit">
+                  <input type="reset" value="reset" id="submit" value="Reset"> 
+                </div>
+                
+                <button type="submit" class="btn btn-success"  name="btn_submit" id="btn_submit">
+                <i class="fa-save"></i> Submit
+            </button>
+            <button type="reset" class="btn btn-primary"  name="btn_reset" id="btn_reset">
+                <i class="fa-save"></i> reset
+            </button>
+              </form>
+          </body>
+          </html> 
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

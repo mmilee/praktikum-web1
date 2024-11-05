@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<h1>hallo word</h1>
+<h2>hallo word</h2>
+<h3>hallo word</h3>
+
+<h1>Praktek pemograman web 1</h1>
+<h2>Sesi 1</h2>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktek pemograman web 1</title>
+</head>
+<body>
+    <h1>Praktek pemograman web 1</h1>
+    <h2>Sesi 1</h2>
+
+    <p>Praktek Pemograman Web 1 akan membahas tentang cara menampilkan 
+        halaman web dengan menggunakan HTML,CSS dan
+        JavaScript. Mahasiswa diharapkan mampu memahami sintaks dasar dalam 
+        menampilkan halaman web, dan dengan pemahaman tersebut kemudian menuilskan hasil kreasinya sendiri.
+    
+        Pada sesi 1 mahasiswa mengenali dulu struktur dasar HTML beserta 
+        sintaks dasarnya</p>
+        
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+
+
+    <img src="logo-uniska.png" style="width: 150px; height: auto;" alt="">
+        </ul>
+
+        <p> Pada sesi 1 mahasiswa mengenali dulu struktur dasar HTML beserta 
+            sintaks dasarnya</p>
+            <ol>
+                <li>pengenalan HTML</li>
+                <li>Tabel</li>
+                <li>form</li>
+            
+    <h1>HTML</h1>
+    <img src="HTML.jpg" style="width: 150px; height: auto;"alt="HTML">
+            </ol>
+        
+            <p> Pada sesi 1 mahasiswa mengenali dulu struktur dasar HTML beserta 
+                sintaks dasarnya</p>
+                <ol>
+                    <li>pengenalan HTML</li>
+                    <li>Tabel</li>
+                    <li>form</li>
+
+    <h1>CSS</h1>       
+    <img src="CSS.jpg" style="width: 150px; height: auto;"alt="CCS">
+                </ol>
+            
+            <P> Cascading Style Sheet (CSS) merupakan standar untuk mengatur tampilan pada suatu berkas HTML, CSS bukan bahasa pemprogaman tetapi merupakan bahasa deklaratif yang dinyatakan langsung untuk menyatakan suatu
+                tampilan, tidak terdapat logika, percabangan, ataupun perulangan</P>
+        
+    <h1>JavaScript</h1>
+    <img src="JAVASCRIPT.jpg" style="width: 150px; height: auto;" alt=" JAVASCRIPT">
+
+            <p> JavaScript merupakan bahasa pemograman yang berjalan disisi browser, disisi pengguna, atau di peramban bukan diserver</p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>olahraga</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <h1>selamat datang didunia olahraga</h1>
+        <nav>
+            <ol>
+                <li><a href="https://medlineplus.gov/benefitsofexercise.html">manfaat</a></li>
+                <li><a href="https://id.wikipedia.org/wiki/Daftar_olahraga">Jenis olahraga</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Manfaat olahraga</h2>
+        <ul>
+            <li>kesehatan fisik:
+            meningkatkan daya tahan tubuh dan menjaga berat badan </li>
+            <li>kesehatan mental:
+                mengurangi stres dan meningkatkan suasana hati</li>
+        </ul>
+                            <h3>kesimpulan</h3>
+        <p>olahraga merupakan bagian penting dari gaya hidup sehat. dengan manfaat yang beragam,
+             setiap orang dianjurkan untuk aktif berolahraga dan menemukan jenis sesuai</p>
+
+        <img src="foto-olahraga.webp" style="width: 400px;height: auto;">
+    </main>
+</body>
+</html>

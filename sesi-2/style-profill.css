@@ -1,0 +1,132 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.cv-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.profile-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+/* Profile Picture */
+.profile-picture {
+    margin-top: 20px;
+}
+
+.profile-picture .image {
+    width: 30px; /* Ukuran gambar */
+    height: 30px; /* Ukuran gambar */
+    border-radius: 20%; /* Membuat gambar menjadi bulat */
+    border: 6px solid #3498db; /* Border berwarna biru */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture .image:hover {
+    transform: scale(1.0); /* Efek zoom saat hover */
+}
+
+/* Profile Info */
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info h1 {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.profile-info .tagline {
+    font-size: 1.4rem; /* Ukuran font lebih besar */
+    color: #3498db;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.profile-info .contact-info {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+/* Link Sosial Media */
+.social-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #3498db; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    border-radius: 5px; /* Sudut membulat */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: background-color 0.3s ease; /* Transisi warna */
+}
+
+.social-link:hover {
+    background-color: #2980b9; /* Warna saat hover */
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8rem;
+    color: #f39c12;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .cv-container {
+        padding: 20px;
+    }
+
+    .profile-picture .image {
+        width: 120px; /* Ukuran gambar di perangkat mobile */
+        height: 120px; /* Ukuran gambar di perangkat mobile */
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+
